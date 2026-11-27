@@ -1,0 +1,22 @@
+{
+  "name": "@colyseus/crowd-join-kit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "1500 人逐个进房间：每一拍只发新来的那一个（增量），不重发全场。",
+  "scripts": {
+    "test": "vitest run",
+    "bench": "tsx bench/crowd-join.ts"
+  },
+  "dependencies": {
+    "@colyseus/core": "workspace:^",
+    "@colyseus/schema": "^5.0.8",
+    "@colyseus/sdk": "workspace:^",
+    "@colyseus/ws-transport": "workspace:^"
+  },
+  "devDependencies": {
+    "tsx": "^4.1.2",
+    "typescript": "^6.0.3",
+    "vitest": "^3.1.1"
+  }
+}
